@@ -1,10 +1,17 @@
-# Uttam Kumar
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-banner-dark.svg">
+  <img src="assets/profile-banner-light.svg" alt="Clear contracts. Connected systems. Backend and platform engineering." width="1000">
+</picture>
 
-**Backend & Platform Engineer · Java · Go**
+<h1 align="center">Uttam Kumar</h1>
+
+<p align="center"><strong>Backend &amp; Platform Engineer · Java · Go</strong></p>
+
+<p align="center">
+  Bengaluru, India · <a href="#selected-engineering-work">Selected work</a> · <a href="#contact">Contact</a>
+</p>
 
 I build Java/Spring Boot services and the integrations between systems: REST APIs, authentication, webhooks, and token lifecycles. My current focus is Go, distributed systems, and cloud-native engineering.
-
-Bengaluru, India · [Selected work](#selected-engineering-work) · [Contact](#contact)
 
 ---
 
@@ -54,9 +61,32 @@ A structured reference for reasoning from requirements to architecture. The curr
 
 ## Technical expertise
 
-- **Production experience:** Java, Spring Boot, REST APIs, third-party integrations, authentication and authorization, webhooks, token lifecycles.
-- **Hands-on project work:** PostgreSQL, Flyway, Spring Data JPA, local/R2 storage adapters, React/TypeScript, Python learning examples, containerized local development.
-- **Current learning and focus:** Go backend services and microservices, Podman, Kubernetes/OpenShift, distributed systems, and platform engineering.
+### Production experience
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=java,spring&amp;theme=dark">
+  <img src="https://skillicons.dev/icons?i=java,spring&amp;theme=light" alt="Java and Spring" height="40">
+</picture>
+
+Java, Spring Boot, REST APIs, third-party integrations, authentication and authorization, webhooks, token lifecycles.
+
+### Hands-on project work
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=postgres,react,ts,python&amp;theme=dark">
+  <img src="https://skillicons.dev/icons?i=postgres,react,ts,python&amp;theme=light" alt="PostgreSQL, React, TypeScript, and Python" height="40">
+</picture>
+
+PostgreSQL, Flyway, Spring Data JPA, local/R2 storage adapters, React/TypeScript, Python learning examples, containerized local development.
+
+### Current learning and focus
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=go,kubernetes&amp;theme=dark">
+  <img src="https://skillicons.dev/icons?i=go,kubernetes&amp;theme=light" alt="Go and Kubernetes — current learning and focus" height="40">
+</picture>
+
+Go backend services and microservices, Podman, Kubernetes/OpenShift, distributed systems, and platform engineering.
 
 ## Technical writing and learning
 
@@ -64,6 +94,19 @@ I keep public study material alongside implementation exercises:
 
 - [Backend-Notes](https://github.com/uttamkumar37/Backend-Notes) — introductory Java/Go practice, backend topics, and language roadmaps.
 - [GenAI theory notes](https://github.com/uttamkumar37/GenAI-Engineering/tree/main/theory) — topic-based reading on retrieval, evaluation, reliability, and Java integration.
+
+## GitHub activity
+
+<p align="center">
+  <a href="https://github.com/uttamkumar37?tab=overview">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=uttamkumar37&amp;show_icons=true&amp;disable_animations=true&amp;hide_rank=true&amp;hide=stars,issues&amp;theme=github_dark&amp;hide_border=true&amp;custom_title=GitHub%20activity">
+      <img src="https://github-readme-stats.vercel.app/api?username=uttamkumar37&amp;show_icons=true&amp;disable_animations=true&amp;hide_rank=true&amp;hide=stars,issues&amp;theme=default&amp;hide_border=true&amp;custom_title=GitHub%20activity" alt="Uttam Kumar's public GitHub activity: commits, pull requests, and contributions. Open GitHub for the latest activity." width="360">
+    </picture>
+  </a>
+</p>
+
+[View contributions directly on GitHub](https://github.com/uttamkumar37?tab=overview).
 
 ## Contact
 

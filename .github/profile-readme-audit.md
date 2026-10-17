@@ -42,7 +42,7 @@ Use native Markdown headings and lists. Omit decorative assets and activity widg
 - Professional experience comes from the user's supplied context. The clarification supplied no dates or portfolio URL, so neither an experience count nor a portfolio link was added.
 - Project code and test source were inspected, not executed. Test presence is evidence of intent and implementation, not a passing test run or coverage measurement.
 
-## Final verification
+## Initial rewrite verification
 
 - The README has 17 unique link targets: 13 GitHub URLs returned HTTP 200, two local heading anchors resolve, one LinkedIn destination is corroborated as described above, and one published email address passes syntax validation.
 - Source inspection confirms the external `architecture-notes` heading and the retention-test line reference. Featured repositories were publicly accessible without authentication.
@@ -53,7 +53,7 @@ Use native Markdown headings and lists. Omit decorative assets and activity widg
 - The skeptical engineering review retained explicit app/lab/curriculum status labels, removed the unverified year count and CloudCampus feature claims, and kept Go and orchestration topics under current learning/focus. It makes no scale, adoption, performance, production deployment, or test-coverage claims.
 - Only the README and this directly related audit document changed. Commit and push were deferred until the user explicitly requested them after reviewing the redesign.
 
-## Final self-review
+## Initial rewrite self-review
 
 Scores are editorial judgments out of 10, not measured engineering achievements.
 
@@ -65,3 +65,15 @@ Scores are editorial judgments out of 10, not measured engineering achievements.
 | Technical depth | 8 | Concrete storage, lifecycle, resilience, and service-boundary evidence; limited public production evidence. |
 | Maintainability | 9 | Plain Markdown and no image services; branch links and project statuses still need periodic review. |
 | Accessibility | 9 | Semantic headings, descriptive links, mobile reflow, and adequate preview contrast; no live screen-reader audit. |
+
+## Visual follow-up
+
+After reviewing the initial rewrite, the user requested more of the original profile's visual appeal. The engineering content and project-status distinctions were retained while adding:
+
+- Two repository-owned SVG banner variants with matching light/dark colors, a centered name, and a centered headline. The code-window artwork is decorative, not an architecture diagram.
+- Eight technology icons grouped under production experience, hands-on projects, and current learning. The icons use the original Skill Icons service, with light/dark variants and descriptive alt text.
+- One compact public GitHub activity card, with ranking and star counts hidden and animations disabled. The original stats service responded successfully; its upstream documentation describes the hosted service as best-effort. A direct GitHub contributions link remains available independently of the image.
+
+Verification: all five visible images loaded in six local Chrome previews at 1280, 375, and 320 pixels across both themes. Every image selected the appropriate theme variant; no preview overflowed horizontally, had broken internal anchors, or lacked image/link labels. The banner's minimum text contrast is 4.98:1 in light mode and 8.97:1 in dark mode. Both SVGs parse correctly and contain no scripts, embedded images, external resources, or event handlers. Relative asset paths resolve, and `git diff --check` passes.
+
+A simulated outage of both external image services left the local banner, all profile text, accessible image descriptions, and the direct GitHub activity link available. New dependencies are confined to the two existing image services; no build tooling or workflow was added. The user approved committing and pushing the visual follow-up after reviewing the preview.
